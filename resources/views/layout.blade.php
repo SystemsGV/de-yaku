@@ -7,10 +7,12 @@
     <title>Yaku Park | </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta property="title" content="Yaku Park" />
-    <meta property="description" content="Parque acuatico YAKUPARK" />
-    <meta property="image" content="https://demo.yakupark.com.pe/images/yakupark.png" />
-    <meta property="url" content="https://demo.yakupark.com.pe/" />
-    <meta name="keywords" content="pool, responsive, swimming, swimming pool, training, underwater, agua, parque acuatico, water slides, beach, Beach Club, booking, events, family, holiday, outdoor activities, resort, summer, vacation" />
+    <meta name="description"
+        content="¡Bienvenido a YAKU PARK! Disfruta de emocionantes toboganes de agua, relájate en piscinas cristalinas y sumérgete en una experiencia acuática inolvidable. Ofrecemos diversión para toda la familia, desde áreas de juegos infantiles hasta atracciones de alta velocidad. ¡Ven y disfruta del sol y la diversión en Comas!">
+    <meta property="image" content="https://laravel.yakupark.com.pe/images/yakupark.png" />
+    <meta property="url" content="https://laravel.yakupark.com.pe/" />
+    <meta name="keywords"
+        content="parque acuático, toboganes de agua, piscinas, atracciones acuáticas, diversión en el agua, parque temático acuático, parque de diversiones, parque de agua, área de juegos acuáticos, entretenimiento acuático, atracciones familiares, toboganes, chapoteaderos, parque infantil, parque de verano, actividades acuáticas, relajación, parque de agua para niños, parque de agua para adultos, zona de relajación, parque recreativo acuático, paseo en balsa, toboganes de alta velocidad, piscina de olas, río lento, parque acuático familiar, áreas de picnic, comida y bebida, entretenimiento en agua, parque de agua para niños pequeños, juegos acuáticos, área de descanso, diversión bajo el sol, aventura acuática, actividades para toda la familia">
     <meta name="author" content="gv" />
     <meta name="MobileOptimized" content="320" />
     <!-- end meta tags -->
@@ -42,7 +44,8 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <div class="wp_logo">
-                        <a href="index.html"><img src="images/yakupark.png" class="img-logo" alt="water-park-logo" /></a>
+                        <a href="index.html"><img src="images/yakupark.png" class="img-logo"
+                                alt="water-park-logo" /></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -72,7 +75,8 @@
                 <a href="/Galeria"><i class="fa fa-picture-o" aria-hidden="true"></i>Galeria</a>
             </li>
             <li class="dropdown">
-                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>Eventos<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>Eventos<span class="fa fa-angle-down"
+                        aria-hidden="true"></span></a>
                 <ul class="sub-menu">
                     <li>
                         <a href="/Eventos"><i class="fa fa-angle-right" aria-hidden="true"></i>Events</a>
