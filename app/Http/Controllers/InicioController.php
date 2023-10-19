@@ -6,8 +6,9 @@ use Illuminate\Http\Request;
 
 class InicioController extends Controller
 {
-    public function inicio()
+    public function index()
     {
-        return view('inicio');
+        $data['title'] = "Inicio";
+        return view('home', $data);
     }
 }

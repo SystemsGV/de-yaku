@@ -4,7 +4,7 @@
 <head>
     <!-- meta tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Yaku Park | </title>
+    <title>Yaku Park | {{ $title }}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta property="title" content="Yaku Park" />
     <meta name="description"
@@ -36,7 +36,7 @@
 <body>
     <!-- loader section start -->
     <div id="loader">
-        <h1 id="status">YAKU PARK</h1>
+        <h1 id="status">AISIRI PARK</h1>
     </div>
     <!-- header section start -->
     <div class="wp_header_wrapper">

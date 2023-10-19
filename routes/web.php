@@ -16,5 +16,11 @@ use App\Http\Controllers\AboutController;
 */
 
 
-Route::get('/', [InicioController::class, 'inicio']);
-Route::get('/Nosotros', [AboutController::class, 'index']);
+
+Route::controller(InicioController::class)->group(function ($route) {
+    Route::get('/', 'index');
+});
+
+Route::controller(AboutController::class)->group(function ($route) {
+    Route::get('/Nosotros', 'index');
+});
