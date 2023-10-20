@@ -23,10 +23,6 @@
 
 */
 /*-------- Body Strat --------*/
-@font-face {
-    font-family: "Water-Galon";
-    src: url("WaterGalon.woff");
-}
 
 :root {
     --const-blue: #1072d2;
