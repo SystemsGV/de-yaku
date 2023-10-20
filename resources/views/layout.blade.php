@@ -18,6 +18,7 @@
     <!-- end meta tags -->
 
     <!-- Fonts -->
+    <link rel="preload" href="{{ asset('fonts/Montserrat-Bold.otf') }}" as="font" type="font/otf" crossorigin>
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}" />
