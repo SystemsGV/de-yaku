@@ -19,6 +19,7 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css') }}" />
+    <link rel="preload" href="{{ asset('css/WaterGalon.woff') }}" as="font" type="font/woff" crossorigin>   
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}" />
@@ -26,6 +27,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/magnific-popup.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/font-awesome.min.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
+
     <link rel="stylesheet" type="text/css" href="{{ asset('css/aos.css') }}" />
 
     <!-- Favicon Icons -->
