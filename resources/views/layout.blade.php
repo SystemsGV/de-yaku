@@ -51,7 +51,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <div class="wp_toggle">
-                        <button class="wp_toggle_btn"><i class="fa fa-bars"></i></button>
+                        <button class="wp_toggle_btn" alt="abrir barra de navegación"><i class="fa fa-bars"></i></button>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
     </div>
     <!-- sidenav section start -->
     <div class="wp_navigation_menu">
-        <button class="wp_close_btn"><i class="fa fa-times"></i></button>
+        <button class="wp_close_btn" alt="Cerrar barra ed navegación"><i class="fa fa-times"></i></button>
         <div class="wp_nav_logo">
             <a href="index.html">
                 <img src="images/yakupark.png" class="img-logo" alt="water-park-nav-menu-logo" />
@@ -106,49 +106,50 @@
                     <div class="wp_footer_content">
                         <img src="images/yakupark.png" class="img-logo" alt="water-park-footer-logo" />
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="event.html">Events</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="/">Inicio</a></li>
+                            <li><a href="/Nosotros">Nosotros</a></li>
+                            <li><a href="/Galeria">Galeria</a></li>
+                            <li><a href="/Servicios">Servicios</a></li>
+                            <li><a href="/Contactanos">Contactanos</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in">
                     <div class="wp_footer_contact">
                         <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        <h2>Address</h2>
-                        <p>1 N. Cactus Ave.<br />Green Bay, WI 54302</p>
+                        <h2>Dirección</h2>
+                        <p>Av.Condorcanqui 2751<br />Urb. Chacra Cerro - Comas,Lima, Peru , Lima, Peru
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in">
                     <div class="wp_footer_contact">
                         <i class="fa fa-phone" aria-hidden="true"></i>
-                        <h2>Phone</h2>
-                        <p>+44 7700 900023<br />+44 7700 900023</p>
+                        <h2>Telefonos</h2>
+                        <p>Por verse</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in">
                     <div class="wp_footer_contact">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <h2>Email</h2>
-                        <a href="#">Info@youremail.com<br />Info@youremail.com</a>
+                        <h2>Correo</h2>
+                        <a href="mailto:samy@asiripark.com">samy@asiripark.com</a>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wp_social_icons">
                         <ul>
                             <li>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#" aria-label="Visitar Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"  aria-label="Visitar Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="#"  aria-label="Visitar Google plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="#"  aria-label="Visitar Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             </li>
                         </ul>
                     </div>

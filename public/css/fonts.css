@@ -1,7 +1,14 @@
-
 @font-face {
     font-family: "Water-Galon";
     src: url("galon.woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Amaranth";
+    src: url("../fonts/Amaranth-Bold.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Montserrat";
@@ -14,6 +21,7 @@
         url("../fonts/Montserrat-Black.woff2") format("woff2");
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Montserrat";
@@ -26,6 +34,7 @@
         url("../fonts/Montserrat-Bold.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Montserrat";
@@ -38,6 +47,7 @@
         url("../fonts/Montserrat-ExtraBold.woff2") format("woff2");
     font-weight: 800;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Montserrat";
@@ -50,6 +60,7 @@
         url("../fonts/Montserrat-ExtraLight.woff2") format("woff2");
     font-weight: 200;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Montserrat";
@@ -62,6 +73,7 @@
         url("../fonts/Montserrat-Light.woff2") format("woff2");
     font-weight: 300;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Montserrat";
@@ -74,6 +86,7 @@
         url("../fonts/Montserrat-Medium.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Montserrat";
@@ -86,6 +99,7 @@
         url("../fonts/Montserrat-Regular.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Montserrat";
@@ -98,6 +112,7 @@
         url("../fonts/Montserrat-SemiBold.woff2") format("woff2");
     font-weight: 600;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Montserrat";
@@ -110,6 +125,7 @@
         url("../fonts/Montserrat-Thin.woff2") format("woff2");
     font-weight: 100;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Lato";
@@ -122,6 +138,7 @@
         url("../fonts/Lato-Black.woff2") format("woff2");
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Lato";
@@ -134,6 +151,7 @@
         url("../fonts/Lato-Bold.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Lato";
@@ -146,6 +164,7 @@
         url("../fonts/Lato-Hairline.woff2") format("woff2");
     font-weight: 100;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Lato";
@@ -158,6 +177,7 @@
         url("../fonts/Lato-Light.woff2") format("woff2");
     font-weight: 300;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Lato";
@@ -170,4 +190,5 @@
         url("../fonts/Lato-Regular.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }

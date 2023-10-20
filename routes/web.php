@@ -16,6 +16,9 @@ use App\Http\Controllers\AboutController;
 */
 
 
+Route::middleware('cache.headers:public;max_age=2628000;etag')->group(function () {
+    // Tus rutas aquí
+});
 
 Route::controller(InicioController::class)->group(function ($route) {
     Route::get('/', 'index');
