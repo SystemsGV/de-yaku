@@ -185,7 +185,7 @@
     Water_Park.init();
     jQuery(window).on("load", function () {
         jQuery("#status").fadeOut(2500);
-        jQuery("#loader").delay(2000).fadeOut();
+        jQuery("#loader").delay(1000).fadeOut();
     });
     $(window).scroll(function () {
         jQuery("#title").addClass("animate__animated animate__bounce");

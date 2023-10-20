@@ -78,7 +78,7 @@ a:focus {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 15rem;
+    font-size: 12rem;
     font-weight: bold;
     text-transform: uppercase;
     margin: 0;
