@@ -1,28 +1,8 @@
-/*Copyright (c) 2017 Himanshu Softtech.
-------------------------------------------------------------------
-[Table of contents]
-1. Body
-2. Normal css
-3. Sidebar css
-4. Loader css
-5. Header Section / .wp_header_wrapper
-6. Banner Section / .wp_banner_wrapper 
-7. About Section / .wp_about_caption h2
-8. Gallery Section / .wp_gallery_wrapper
-9. Service Section / .wp_service_caption
-10. Pricing Section / .wp_pricing_wrapper
-11. Event Section / .wp_event_text
-12. Footer Section / .wp_footer_wrapper
-13. Copyrights Section / .wp_copyright_content
-14. Breadcrumb Section / .wp_bread_wrapper
-15. About Page / .wp_progress_wrapper
-16. Gallery Page / .gallery_page
-17. Event Single Page / .wp_event_item
-18. Contact Page / .wp_map_wrapper
-19. Responsive css
 
-*/
-/*-------- Body Strat --------*/
+@font-face {
+    font-family: "Water-Galon";
+    src: url("WaterGalon.woff");
+}
 
 :root {
     --const-blue: #1072d2;
@@ -73,7 +53,7 @@ a:focus {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 12rem;
+    font-size: 10rem;
     font-weight: bold;
     text-transform: uppercase;
     margin: 0;

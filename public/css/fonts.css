@@ -1,9 +1,4 @@
 @font-face {
-    font-family: "Water-Galon";
-    src: url("WaterGalon.woff") format(woff);
-}
-
-@font-face {
     font-family: "Montserrat";
     src: url("../fonts/Montserrat-Black.eot");
     src: url("../fonts/Montserrat-Black-1.eot") format("embedded-opentype"),
