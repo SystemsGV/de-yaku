@@ -81,7 +81,7 @@ a:focus {
     font-weight: bold;
     text-transform: uppercase;
     margin: 0;
-    background: url(../images/wave.jpg);
+    background: url(../images/wave.webp);
     background-position: left 0 top 0px;
     background-size: cover;
     width: 100rem;
