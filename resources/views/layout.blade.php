@@ -133,7 +133,7 @@
                     <div class="wp_footer_contact">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <h2>Correo</h2>
-                        <a href="mailto:samy@asiripark.com">samy@asiripark.com</a>
+                        <a href="mailto:samy@asiripark.com" aria-label="Envianos un correo">samy@asiripark.com</a>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

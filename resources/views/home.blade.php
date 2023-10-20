@@ -82,7 +82,7 @@
                                         <img src="images/new/psicinaint.webp" alt="Parque acuatico piscina 1" 
                                             class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/psicinaint.webp"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/psicinaint.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -92,7 +92,7 @@
                                         <img src="images/new/piscina1.webp" alt="Parque acuatico piscina 2" 
                                             class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/piscina1.webp"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/piscina1.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +102,7 @@
                                         <img src="images/new/rioLento.webp" alt="Parque acuatico piscina 3" 
                                             class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/rioLento.webp"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/rioLento.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +112,7 @@
                                         <img src="images/new/carrera1.webp" alt="Parque acuatico piscina 4" 
                                             class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/carrera1.webp"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/carrera1.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -121,7 +121,7 @@
                                     <div class="wp_gallery_img">
                                         <img src="images/new/remo.webp" alt="Parque acuatico piscina 5"  class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/remo.webp"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/remo.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -131,7 +131,7 @@
                                         <img src="images/new/yakubaby.webp" alt="Parque acuatico piscina 6" 
                                             class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/yakubaby.webp"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/yakubaby.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -141,7 +141,7 @@
                                         <img src="images/new/cancha1.webp" alt="Parque acuatico piscina 7" 
                                             class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/cancha1.webp"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/cancha1.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
