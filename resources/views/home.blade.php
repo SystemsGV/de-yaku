@@ -163,7 +163,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wp_bottom_padder80" data-aos="flip-left">
                         <div class="wp_service_caption">
                             <img src="images/service/01.png" alt="water-park-service1" class="img-responsive" />
-                            <h4>Water Park</h4>
+                            <h4>Piscinas</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt Lorem ipsum dolor sit amet,
@@ -174,7 +174,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wp_bottom_padder80" data-aos="flip-right">
                         <div class="wp_service_caption">
                             <img src="images/service/02.png" alt="water-park-service2" class="img-responsive" />
-                            <h4>Spa</h4>
+                            <h4>Fotones</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt Lorem ipsum dolor sit amet,
@@ -185,7 +185,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wp_bottom_padder80" data-aos="flip-left">
                         <div class="wp_service_caption">
                             <img src="images/service/03.png" alt="water-park-service3" class="img-responsive" />
-                            <h4>Yoga</h4>
+                            <h4>Juegos</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt Lorem ipsum dolor sit amet,
@@ -196,7 +196,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wp_bottom_padder80" data-aos="flip-right">
                         <div class="wp_service_caption">
                             <img src="images/service/04.png" alt="water-park-service4" class="img-responsive" />
-                            <h4>Resort</h4>
+                            <h4>Canchas de Futbol</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt Lorem ipsum dolor sit amet,
@@ -207,7 +207,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wp_bottom_padder80" data-aos="flip-left">
                         <div class="wp_service_caption">
                             <img src="images/service/05.png" alt="water-park-service5" class="img-responsive" />
-                            <h4>Gym</h4>
+                            <h4>Asiri Food</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt Lorem ipsum dolor sit amet,
@@ -218,7 +218,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wp_bottom_padder80" data-aos="flip-right">
                         <div class="wp_service_caption">
                             <img src="images/service/06.png" alt="water-park-service6" class="img-responsive" />
-                            <h4>Sports</h4>
+                            <h4>Estacionamiento</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt Lorem ipsum dolor sit amet,
@@ -235,7 +235,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="wp_heading">
-                            <h2>Pricing Table</h2>
+                            <h2>Tarifas</h2>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wp_bottom_padder50" data-aos="zoom-in-up">

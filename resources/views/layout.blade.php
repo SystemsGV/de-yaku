@@ -9,7 +9,7 @@
     <meta property="title" content="Yaku Park" />
     <meta name="description"
         content="¡Bienvenido a YAKU PARK! Disfruta de emocionantes toboganes de agua, relájate en piscinas cristalinas y sumérgete en una experiencia acuática inolvidable. Ofrecemos diversión para toda la familia, desde áreas de juegos infantiles hasta atracciones de alta velocidad. ¡Ven y disfruta del sol y la diversión en Comas!">
-    <meta property="image" content="https://laravel.yakupark.com.pe/images/yakupark.png" />
+    <meta property="image" content="https://laravel.yakupark.com.pe/images/asirix220.png" />
     <meta property="url" content="https://laravel.yakupark.com.pe/" />
     <meta name="keywords"
         content="parque acuático, toboganes de agua, piscinas, atracciones acuáticas, diversión en el agua, parque temático acuático, parque de diversiones, parque de agua, área de juegos acuáticos, entretenimiento acuático, atracciones familiares, toboganes, chapoteaderos, parque infantil, parque de verano, actividades acuáticas, relajación, parque de agua para niños, parque de agua para adultos, zona de relajación, parque recreativo acuático, paseo en balsa, toboganes de alta velocidad, piscina de olas, río lento, parque acuático familiar, áreas de picnic, comida y bebida, entretenimiento en agua, parque de agua para niños pequeños, juegos acuáticos, área de descanso, diversión bajo el sol, aventura acuática, actividades para toda la familia">
@@ -30,7 +30,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/aos.css') }}" />
 
     <!-- Favicon Icons -->
-    <link rel="shortcut icon" type="image/png" href="{{ asset('images/yakupark.png') }}" />
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/asirix220.png') }}" />
 
 </head>
 
@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <div class="wp_logo">
-                        <a href="index.html"><img src="images/yakupark.png" class="img-logo"
+                        <a href="/"><img src="images/asirix220.png" class="img-logo"
                                 alt="water-park-logo" /></a>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
         <button class="wp_close_btn" alt="Cerrar barra ed navegación"><i class="fa fa-times"></i></button>
         <div class="wp_nav_logo">
             <a href="index.html">
-                <img src="images/yakupark.png" class="img-logo" alt="water-park-nav-menu-logo" />
+                <img src="images/asirix220.png" class="img-logo" alt="water-park-nav-menu-logo" />
             </a>
         </div>
         <ul>
@@ -104,7 +104,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wp_footer_content">
-                        <img src="images/yakupark.png" class="img-logo" alt="water-park-footer-logo" />
+                        <img src="images/asirix220.png" class="img-logo" alt="water-park-footer-logo" />
                         <ul>
                             <li><a href="/">Inicio</a></li>
                             <li><a href="/Nosotros">Nosotros</a></li>
