@@ -1,9 +1,5 @@
 /*Copyright (c) 2017 Himanshu Softtech.
 ------------------------------------------------------------------
-[Master Stylesheet]
-Template Name:Water Park Multipurpose Responsive HTML Template
-Version: 1.0
--------------------------------------------------------------------
 [Table of contents]
 1. Body
 2. Normal css
@@ -351,7 +347,7 @@ button:focus {
     background-color: #b8dbe6;
     bottom: 0;
     left: 0;
-    font-size:30em;
+    font-size: 30em;
     position: fixed;
     right: 0;
     top: 0;
