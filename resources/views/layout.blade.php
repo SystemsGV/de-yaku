@@ -18,13 +18,13 @@
     <!-- end meta tags -->
 
     <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css') }}" />
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/animate.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/magnific-popup.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/font-awesome.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/aos.css') }}" />
 
