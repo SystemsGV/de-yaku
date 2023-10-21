@@ -191,3 +191,39 @@
         jQuery("#title").addClass("animate__animated animate__bounce");
     });
 })(jQuery);
+
+// Mostrar u ocultar el botón Back to Top según el desplazamiento
+window.onscroll = function () {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+    ) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+let isScrolling = false;
+
+function topFunction() {
+    const scrollToTop = () => {
+        const c = document.documentElement.scrollTop || document.body.scrollTop;
+        if (c > 0 && !isScrolling) {
+            window.requestAnimationFrame(scrollToTop);
+            window.scrollTo(0, c - c / 18); // Ajusta la velocidad del scroll aquí
+        }
+    };
+    scrollToTop();
+}
+
+document.body.addEventListener("scroll", () => {
+    isScrolling = true;
+    setTimeout(() => {
+        isScrolling = false;
+    }, 150); // Establece el tiempo que se debe esperar antes de reactivar la animación
+});

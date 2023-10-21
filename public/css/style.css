@@ -36,7 +36,8 @@ a:focus {
     width: 100%;
     height: 100%;
 }
-.img-responsive, .img-logo{
+.img-responsive,
+.img-logo {
     width: auto !important;
     height: auto !important;
 }
@@ -183,6 +184,69 @@ button:focus {
 .wp_bottom_padder10 {
     padding-bottom: 10px;
 }
+.wp_button_reverse {
+    background: #fff;
+    border: 1px solid transparent;
+    padding: 10px 22px;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    position: relative;
+    perspective: 100px;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.wp_button_reverse:before,
+.wp_button_reverse:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 10px;
+    background-color: rgba(129, 218, 240, 0.342);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translate(-15%, -90px) rotate(-30deg);
+    -moz-transform: translate(-15%, -90px) rotate(-30deg);
+    -ms-transform: translate(-15%, -90px) rotate(-30deg);
+    -o-transform: translate(-15%, -90px) rotate(-30deg);
+    transform: translate(-15%, -90px) rotate(-30deg);
+}
+.wp_button_reverse::after {
+    background-color: #3dcaf6;
+}
+.wp_button_reverse:hover {
+    color: #fff;
+}
+.wp_button_reverse:hover:before,
+.wp_button_reverse:hover:after {
+    -webkit-transform: translate(0, 0) rotate(0deg);
+    -moz-transform: translate(0, 0) rotate(0deg);
+    -ms-transform: translate(0, 0) rotate(0deg);
+    -o-transform: translate(0, 0) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
+}
+.wp_button_reverse:hover::after {
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -ms-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
 .wp_button {
     background: #3dcaf6;
     border: 1px solid transparent;
@@ -445,6 +509,9 @@ button:focus {
         background-position: left 1200px top -10px;
     }
 }
+.mg-top {
+    margin-top: 3em !important;
+}
 /*-------- header section start --------*/
 .wp_header_wrapper {
     position: absolute;
@@ -682,7 +749,6 @@ button:focus {
 }
 .wp_banner_caption .wp_banner_text p span {
     font-family: "Amaranth";
-
 }
 .wp_banner_caption .wp_banner_text h1 {
     font-family: "Water-Galon";
@@ -942,12 +1008,16 @@ button:focus {
     color: #484848;
 }
 /*-------- event section start --------*/
+
 .wp_event_text {
     padding: 20px 30px;
     border: 2px solid #3dcaf6;
     border-radius: 10px;
     width: 60%;
     float: left;
+}
+.wp_event_text.full {
+    width: 100%;
 }
 .wp_event_text h4 {
     font-size: 25px;
@@ -1195,8 +1265,9 @@ button:focus {
     position: relative;
     padding: 250px 0px 250px 0px;
 }
-.breadcrumb li a, .breadcrumb li{
-    font-family: 'Amaranth';
+.breadcrumb li a,
+.breadcrumb li {
+    font-family: "Amaranth";
     font-size: 30px !important;
 }
 .wp_bread_caption {
@@ -1812,3 +1883,89 @@ button:focus {
         width: 100%;
     }
 }
+
+/* A */
+#myBtn {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: opacity 0.2s, transform 0.2s; /* Animaciones de fade-in y transformación */
+}
+
+#myBtn:hover {
+    opacity: 1;
+    transform: scale(1.1); /* Efecto de escala al pasar el ratón por encima */
+}
+.schedule {
+    position: relative;
+    background-color: var(--const-blue);
+    color: #fff;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.schedule::before,
+.schedule::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 0;
+    animation: pulse 1.5s linear infinite;
+}
+
+.schedule::before {
+    animation-delay: 0.3s;
+}
+
+.schedule::after {
+    animation-delay: 0.6s;
+}
+
+@keyframes pulse {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 0.6;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        opacity: 0;
+    }
+}
+.number-bold {
+    display: inline-block;
+    width: 30px; /* Ajusta el tamaño del círculo según tu preferencia */
+    height: 30px; /* Ajusta el tamaño del círculo según tu preferencia */
+    background-color: var(--const-blue); /* Color del círculo */
+    color: #fff; /* Color del número */
+    border-radius: 50%; /* Hace que el elemento sea circular */
+    text-align: center; /* Centra el número dentro del círculo */
+    font-weight: bold;
+    font-size: 18px; /* Tamaño del número */
+    line-height: 30px; /* Alinea verticalmente el número */
+    margin-right: 10px; /* Espacio entre el círculo y el texto */
+}
+
+
+
+

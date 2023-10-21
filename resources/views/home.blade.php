@@ -12,7 +12,7 @@
                             <div class="wp_banner_text">
                                 <p>BIENVENIDO A</p>
                                 <h1 id="title">
-                                    ASIRI PARK 
+                                    ASIRI PARK
                                 </h1>
                             </div>
                             <p>
@@ -70,78 +70,86 @@
                             <button class="wp_button" data-filter="swimming">Piscinas</button>
                             <button class="wp_button" data-filter="games">Juegos</button>
                             <button class="wp_button" data-filter="photons">Fotones</button>
-                            <button class="wp_button" data-filter="futbol">Canchas de Futbol</button>
+                            <button class="wp_button" data-filter="futbol">Futbol</button>
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="row">
                             <div class="wp_gallery">
-                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter adults" data-value="1"
-                                    data-aos="zoom-in-right">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter photons" data-value="1"
+                                    data-aos="zoom-in-right" data-aos-offset="1">
                                     <div class="wp_gallery_img">
-                                        <img src="images/new/psicinaint.webp" alt="Parque acuatico piscina 1" 
+                                        <img src="images/new/psicinaint.webp" alt="Parque acuatico piscina 1"
                                             class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/psicinaint.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/psicinaint.webp" aria-label="Parque acuatico piscina"><i
+                                                    class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter kids swimming" data-value="6"
-                                    data-aos="zoom-in-right">
+                                    data-aos="zoom-in-right" data-aos-offset="1">
                                     <div class="wp_gallery_img">
-                                        <img src="images/new/piscina1.webp" alt="Parque acuatico piscina 2" 
+                                        <img src="images/new/piscina1.webp" alt="Parque acuatico piscina 2"
                                             class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/piscina1.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/piscina1.webp" aria-label="Parque acuatico piscina"><i
+                                                    class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter kids" data-value="3"
-                                    data-aos="zoom-in-right">
+                                    data-aos="zoom-in-right" data-aos-offset="1">
                                     <div class="wp_gallery_img">
-                                        <img src="images/new/rioLento.webp" alt="Parque acuatico piscina 3" 
+                                        <img src="images/new/rioLento.webp" alt="Parque acuatico piscina 3"
                                             class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/rioLento.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/rioLento.webp" aria-label="Parque acuatico piscina"><i
+                                                    class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter kids swimming" data-value="6"
-                                    data-aos="zoom-in-right">
+                                    data-aos="zoom-in-right" data-aos-offset="1">
                                     <div class="wp_gallery_img">
-                                        <img src="images/new/carrera1.webp" alt="Parque acuatico piscina 4" 
+                                        <img src="images/new/carrera1.webp" alt="Parque acuatico piscina 4"
                                             class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/carrera1.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/carrera1.webp" aria-label="Parque acuatico piscina"><i
+                                                    class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter kids swimming" data-value="6"
-                                    data-aos="zoom-in-right">
+                                    data-aos="zoom-in-right" data-aos-offset="1">
                                     <div class="wp_gallery_img">
-                                        <img src="images/new/remo.webp" alt="Parque acuatico piscina 5"  class="img-responsive" />
+                                        <img src="images/new/remo.webp" alt="Parque acuatico piscina 5"
+                                            class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/remo.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/remo.webp" aria-label="Parque acuatico piscina"><i
+                                                    class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter kids party" data-value="5"
-                                    data-aos="zoom-in-right">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter games" data-value="5"
+                                    data-aos="zoom-in-right" data-aos-offset="1">
                                     <div class="wp_gallery_img">
-                                        <img src="images/new/yakubaby.webp" alt="Parque acuatico piscina 6" 
+                                        <img src="images/new/yakubaby.webp" alt="Parque acuatico piscina 6"
                                             class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/yakubaby.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/yakubaby.webp" aria-label="Parque acuatico piscina"><i
+                                                    class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter swimming" data-value="7"
-                                    data-aos="zoom-in-right">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter futbol" data-value="7"
+                                    data-aos="zoom-in-right" data-aos-offset="1">
                                     <div class="wp_gallery_img">
-                                        <img src="images/new/cancha1.webp" alt="Parque acuatico piscina 7" 
+                                        <img src="images/new/cancha1.webp" alt="Parque acuatico piscina 7"
                                             class="img-responsive" />
                                         <div class="wp_gallery_overlay popup-gallery">
-                                            <a href="images/new/cancha1.webp" aria-label="Parque acuatico piscina"><i class="fa fa-search-plus"></i></a>
+                                            <a href="images/new/cancha1.webp" aria-label="Parque acuatico piscina"><i
+                                                    class="fa fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -157,7 +165,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="wp_heading">
-                            <h2>Servicios</h2>
+                            <h2>Instalaciones</h2>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wp_bottom_padder80" data-aos="flip-left">
@@ -193,7 +201,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wp_bottom_padder80" data-aos="flip-right">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lg-offset-2 col-md-offset-2  wp_bottom_padder80" data-aos="flip-right">
                         <div class="wp_service_caption">
                             <img src="images/service/04.png" alt="water-park-service4" class="img-responsive" />
                             <h4>Canchas de Futbol</h4>
@@ -204,21 +212,10 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wp_bottom_padder80" data-aos="flip-left">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12   wp_bottom_padder80" data-aos="flip-left">
                         <div class="wp_service_caption">
                             <img src="images/service/05.png" alt="water-park-service5" class="img-responsive" />
                             <h4>Asiri Food</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt Lorem ipsum dolor sit amet,
-                                consectetur adipiscing.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wp_bottom_padder80" data-aos="flip-right">
-                        <div class="wp_service_caption">
-                            <img src="images/service/06.png" alt="water-park-service6" class="img-responsive" />
-                            <h4>Estacionamiento</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt Lorem ipsum dolor sit amet,
@@ -235,7 +232,8 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="wp_heading">
-                            <h2>Tarifas</h2>
+                            <h2>Tarifas</h2> <br>
+                            <div><span class="schedule">Abierto: de lunes a domingos 10 a.m - 6 p.m</span></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wp_bottom_padder50" data-aos="zoom-in-up">
@@ -347,10 +345,11 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="wp_heading">
-                            <h2>Upcoming Events</h2>
+                            <h2>Servicios</h2>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wp_bottom_padder50" data-aos="zoom-in-right">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wp_bottom_padder50" data-aos="zoom-in-right"
+                        data-aos-offset="10">
                         <div class="wp_event_caption">
                             <div class="wp_event_img">
                                 <img src="images/new/empresas.webp" alt="water-park-event1" class="img-responsive"
@@ -378,7 +377,7 @@
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wp_bottom_padder50" data-aos="fade-down"
-                        data-offset="200">
+                        data-aos-offset="50">
                         <div class="wp_event_caption left_img">
                             <div class="wp_left_event_img">
                                 <img src="images/new/COLE.webp" alt="water-park-event2" class="img-responsive"
@@ -406,7 +405,7 @@
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wp_bottom_padder50" data-aos="zoom-in-right"
-                        data-offset="200">
+                        data-aos-offset="50">
                         <div class="wp_event_caption">
                             <div class="wp_event_img">
                                 <img src="images/new/CUMPLE.webp" alt="water-park-event3" class="img-responsive"

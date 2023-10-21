@@ -5,6 +5,7 @@
     <!-- meta tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Yaku Park | {{ $title }}</title>
+
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta property="title" content="Yaku Park" />
     <meta name="description"
@@ -37,7 +38,7 @@
 <body>
     <!-- loader section start -->
     <div id="loader">
-        <h1 id="status">AISIRI PARK</h1>
+        <h1 id="status">ASIRI PARK</h1>
     </div>
     <!-- header section start -->
     <div class="wp_header_wrapper">
@@ -45,13 +46,13 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <div class="wp_logo">
-                        <a href="/"><img src="images/asirix220.png" class="img-logo"
-                                alt="water-park-logo" /></a>
+                        <a href="/"><img src="images/asirix220.png" class="img-logo" alt="water-park-logo" /></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <div class="wp_toggle">
-                        <button class="wp_toggle_btn" alt="abrir barra de navegación"><i class="fa fa-bars"></i></button>
+                        <button class="wp_toggle_btn" alt="abrir barra de navegación"><i
+                                class="fa fa-bars"></i></button>
                     </div>
                 </div>
             </div>
@@ -61,7 +62,7 @@
     <div class="wp_navigation_menu">
         <button class="wp_close_btn" alt="Cerrar barra ed navegación"><i class="fa fa-times"></i></button>
         <div class="wp_nav_logo">
-            <a href="index.html">
+            <a href="{{ url('/') }}">
                 <img src="images/asirix220.png" class="img-logo" alt="water-park-nav-menu-logo" />
             </a>
         </div>
@@ -91,6 +92,12 @@
             <li>
                 <a href="/Contactanos"><i class="fa fa-book" aria-hidden="true"></i>Contactanos</a>
             </li>
+            <div class="text-center mg-top">
+                <div class="btn-group">
+                    <a href="/Recomendaciones" class="wp_button_reverse"
+                        aria-label="Ir a recomendaciones">Recomendaciones</a>
+                </div>
+            </div>
         </ul>
     </div>
     <!-- banner section start -->
@@ -114,7 +121,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in" data-aos-offset="1">
                     <div class="wp_footer_contact">
                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                         <h2>Dirección</h2>
@@ -122,34 +129,39 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in" data-aos-offset="1">
                     <div class="wp_footer_contact">
                         <i class="fa fa-phone" aria-hidden="true"></i>
                         <h2>Telefonos</h2>
                         <p>Por verse</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in" data-aos-offset="1">
                     <div class="wp_footer_contact">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <h2>Correo</h2>
-                        <a href="mailto:samy@asiripark.com" aria-label="Envianos un correo">samy@asiripark.com</a>
+                        <a href="mailto:atencionalcliente@asiripark.com.pe"
+                            aria-label="Envianos un correo">atencionalcliente@asiripark.com.pe</a>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wp_social_icons">
                         <ul>
                             <li>
-                                <a href="#" aria-label="Visitar Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#" aria-label="Visitar Twitter"><i class="fa fa-twitter"
+                                        aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="#"  aria-label="Visitar Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#" aria-label="Visitar Facebook"><i class="fa fa-facebook"
+                                        aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="#"  aria-label="Visitar Google plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="#" aria-label="Visitar Google plus"><i class="fa fa-google-plus"
+                                        aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="#"  aria-label="Visitar Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="#" aria-label="Visitar Linkedin"><i class="fa fa-linkedin"
+                                        aria-hidden="true"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -170,6 +182,9 @@
         </div>
     </div>
 
+    <!--- Btn Sidebar Static -->
+    <button data-aos="zoom-in" onclick="topFunction()" id="myBtn" title="Volver arriba">↑</button>
+
     <!-- js files -->
     <script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
@@ -179,7 +194,7 @@
     <script type="text/javascript" src="{{ asset('js/aos.js') }}"></script>
     <script>
         AOS.init({
-            offset: 130,
+            offset: 50,
         });
     </script>
     @yield('scripts')
