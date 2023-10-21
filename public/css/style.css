@@ -770,6 +770,7 @@ button:focus {
 }
 .wp_banner_caption p span {
     color: #0e7205;
+    font-size: 1.5em !important;
 }
 /*-------- about section start -------*/
 .wp_about_caption h2 {
@@ -1919,7 +1920,7 @@ button:focus {
 
 .schedule::before,
 .schedule::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1965,7 +1966,14 @@ button:focus {
     line-height: 30px; /* Alinea verticalmente el número */
     margin-right: 10px; /* Espacio entre el círculo y el texto */
 }
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
-
-
+.text-splash {
+    font-weight: 600;
+    color: #007bff; /* Color azul (puedes cambiarlo según tus preferencias) */
+    display: inline-block;
+    position: relative;
+}
 

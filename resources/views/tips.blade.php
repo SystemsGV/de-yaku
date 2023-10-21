@@ -54,8 +54,7 @@
                             patinetas, carros, fósforos, objetivos inflamables, tijeras, navajas, cuchillos u otros objetos
                             cortantes, ni envases de vidrio.
                         </p>
-                        <p><span class="number-bold">6. </span>Está permitido el uso de palos seflie, tripodes, flotadores
-                            tipo chaleco o picaron (no colchonetas ni flotadores grandes).
+                        <p><span class="number-bold">6. </span>Está permitido el ingreso de palos seflie, tripodes, flotadores tipo chaleco o picaron (no colchonetas ni flotadores grandes).
                         </p>
                         <p><span class="number-bold">7. </span>Una vez que los visitantes ingresan a nuestras instalaciones.
                             Asiri Park asume responsabilidad de su seguridad durante su estadía. No nos hacemos cargo de los

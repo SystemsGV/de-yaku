@@ -121,7 +121,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in" data-aos-offset="1">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
                     <div class="wp_footer_contact">
                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                         <h2>Dirección</h2>
@@ -129,14 +129,14 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in" data-aos-offset="1">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
                     <div class="wp_footer_contact">
                         <i class="fa fa-phone" aria-hidden="true"></i>
                         <h2>Telefonos</h2>
                         <p>Por verse</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in" data-aos-offset="1">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
                     <div class="wp_footer_contact">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <h2>Correo</h2>
@@ -194,7 +194,7 @@
     <script type="text/javascript" src="{{ asset('js/aos.js') }}"></script>
     <script>
         AOS.init({
-            offset: 50,
+            offset: 40,
         });
     </script>
     @yield('scripts')
